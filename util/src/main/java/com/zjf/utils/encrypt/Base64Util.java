@@ -10,7 +10,11 @@ import java.io.IOException;
  * @description :
  * @date : 2017/11/20.
  */
-public class Base64Util {
+public final class Base64Util {
+
+    private Base64Util() {
+        throw new AssertionError();
+    }
 
     /**
      * BASE64解密

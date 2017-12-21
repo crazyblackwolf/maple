@@ -7,8 +7,11 @@ import java.math.BigDecimal;
  * @description :
  * @date : 2017/11/20.
  */
-public class MathUtil {
+public final class MathUtil {
 
+    private MathUtil() {
+        throw new AssertionError();
+    }
 
     /**
      * 乘

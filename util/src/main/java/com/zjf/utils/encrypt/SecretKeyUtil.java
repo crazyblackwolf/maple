@@ -11,7 +11,11 @@ import java.security.Security;
  * @description :
  * @date : 2017/11/20.
  */
-public class SecretKeyUtil {
+public final class SecretKeyUtil {
+
+    private SecretKeyUtil() {
+        throw new AssertionError();
+    }
 
     private static final String Algorithm = "DESede"; //定义 加密算法,可用 DES,DESede,Blowfish
     final static byte[] defaultKeyBytes = {0x11, 0x22, 0x4F, 0x58, (byte) 0x88, 0x10, 0x40, 0x38
@@ -121,6 +125,7 @@ public class SecretKeyUtil {
 
     /**
      * 转换成十六进制字符串
+     *
      * @param b
      * @return java.lang.String
      */

@@ -25,12 +25,15 @@ import java.util.regex.Pattern;
  * @author leno
  * @version v1.0
  */
-public class ExcelUtil {
+public final class ExcelUtil {
+
+    private ExcelUtil() {
+        throw new AssertionError();
+    }
 
     private static final String DATE_PATTERN = "yyyy-MM-dd";
 
     /**
-     *
      * @param data 列表数据
      * @param out
      */
@@ -39,9 +42,8 @@ public class ExcelUtil {
     }
 
     /**
-     *
      * @param headers 表头
-     * @param data 列表数据
+     * @param data    列表数据
      * @param out
      */
     public void exportExcel(String[] headers, Collection<T> data, OutputStream out) {
@@ -49,9 +51,8 @@ public class ExcelUtil {
     }
 
     /**
-     *
      * @param headers 表头
-     * @param data 列表数据
+     * @param data    列表数据
      * @param out
      * @param pattern 时间格式化
      */

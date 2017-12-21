@@ -28,7 +28,11 @@ import java.util.Map;
  * @description :本工具类基于httpclient4.5.1实现 摘自http://blog.csdn.net/wangnan537/article/details/50374061
  * @date : 2017/11/18.
  */
-public class HttpClientUtil {
+public final class HttpClientUtil {
+
+    private HttpClientUtil() {
+        throw new AssertionError();
+    }
 
     private static final Logger LOGGER = LoggerFactory.getLogger(HttpClientUtil.class);
 

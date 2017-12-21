@@ -12,7 +12,11 @@ import java.util.Date;
  * @description :
  * @date : 2017/11/20.
  */
-public class JodaTimeUtil {
+public final class JodaTimeUtil {
+
+    private JodaTimeUtil() {
+        throw new AssertionError();
+    }
 
     /**
      * org.joda.time.DateTime转换为java.util.Date

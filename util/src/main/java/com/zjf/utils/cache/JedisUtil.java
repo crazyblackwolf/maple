@@ -13,7 +13,11 @@ import java.util.Set;
  * @description :
  * @date : 2017/11/21.
  */
-public class JedisUtil {
+public final class JedisUtil {
+
+    private JedisUtil() {
+        throw new AssertionError();
+    }
 
     private static JedisPool jedisPool = null;
 

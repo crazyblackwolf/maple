@@ -11,10 +11,15 @@ import java.util.UUID;
  * @description :
  * @date : 2017/11/18.
  */
-public class StringUtil {
+public final class StringUtil {
+
+    private StringUtil() {
+        throw new AssertionError();
+    }
 
     /**
      * 获取uuid,不带"-"
+     *
      * @return java.lang.String
      */
     public static String getUUID() {
