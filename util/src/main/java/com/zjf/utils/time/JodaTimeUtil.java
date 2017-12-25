@@ -8,9 +8,9 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/20.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public final class JodaTimeUtil {
 

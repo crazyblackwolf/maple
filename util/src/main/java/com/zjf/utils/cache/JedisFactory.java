@@ -8,9 +8,9 @@ import redis.clients.jedis.JedisPoolConfig;
 import java.io.IOException;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/21.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public class JedisFactory {
 

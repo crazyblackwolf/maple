@@ -5,9 +5,9 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 /**
- * @author : zhoujianfei
- * @description : 文件操作工具
- * @date : 2017/12/20.
+ * @author: linziye
+ * @description: 
+ * @date: 15:34 2017/12/21 .
  */
 public final class FileUtil {
 

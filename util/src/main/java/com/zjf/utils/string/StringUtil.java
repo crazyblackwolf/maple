@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.UUID;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/18.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public final class StringUtil {
 

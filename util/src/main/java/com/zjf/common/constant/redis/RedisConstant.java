@@ -1,9 +1,9 @@
 package com.zjf.common.constant.redis;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/21.
+ * @author: linziye
+ * @description: 
+ * @date: 15:35 2017/12/21 .
  */
 public class RedisConstant {
 

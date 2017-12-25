@@ -13,9 +13,9 @@ import java.security.NoSuchAlgorithmException;
 import java.security.PrivilegedAction;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/20.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public class MD5Util {
     public static char hexDigits[] = {'0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F'};

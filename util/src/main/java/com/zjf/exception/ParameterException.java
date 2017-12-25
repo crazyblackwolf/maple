@@ -1,9 +1,9 @@
 package com.zjf.exception;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/12/20.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public class ParameterException extends RuntimeException {
 

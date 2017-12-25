@@ -8,9 +8,9 @@ import java.io.IOException;
 import java.util.Properties;
 
 /**
- * @author : zhoujianfei
- * @description :
- * @date : 2017/11/21.
+ * @author: linziye
+ * @description:
+ * @date: 15:34 2017/12/21 .
  */
 public class SystemConfig {
 
