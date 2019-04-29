@@ -1,0 +1,11 @@
+/*******获取一段时间中的所有月份,包含英文简写*******/
+declare @begin datetime,@end datetime
+set @begin='2019-4-6'
+set @end='2019-12-2'
+ 
+declare @months int
+set @months=DATEDIFF(month,@begin,@end)
+
+select left(datename(m, (convert(varchar(7),DATEADD(month,number,@begin) ,120)+'-01 00:00:00.000')), 3) ,month(convert(varchar(7),DATEADD(month,number,@begin) ,120)+'-01 00:00:00.000') AS 月份
+from master.dbo.spt_values 
+where type='p'AND number<=@months
